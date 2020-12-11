@@ -4,7 +4,7 @@ var textArea = document.querySelector("#txt-area");
 
 var outputDiv = document.querySelector("#output");
 
-var url = "https://api.funtranslations.com/translate/minion.json";
+var url = "https://api.funtranslations.com/translate/valyrian.json";
 
 function getTranslationUrl(text) {
   return encodeURI(url + "?text=" + text);
